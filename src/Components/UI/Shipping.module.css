@@ -1,0 +1,100 @@
+.main_box {
+    padding-top: 3rem;
+}
+
+.main_box h1 {
+    font-size: 2.5rem;
+    margin: 0 2.5rem;
+}
+
+.form_box {
+    padding: 2rem 4rem;
+}
+
+.form_box input,
+.form_box select {
+    border: 1px solid #c2c2c257;
+    outline: navajowhite;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: .4rem 1rem;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+}
+
+.form_box input[type='file'] {
+    background-color: #ededed;
+}
+
+.address {
+    display: flex;
+}
+
+.input_box {
+    display: flex;
+}
+
+.form_box .heading {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 2rem .5rem;
+}
+
+.first_half {
+    background-color: #fff;
+}
+
+.second_half {
+    background-color: rgb(250, 250, 250);
+    height: 100vh;
+    padding: 1rem 2rem;
+    border-left: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product img {
+    width: 70px;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.product h3 {
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tr td {
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+}
+
+.trs h3 {
+    font-size: 10pt;
+}
+
+.trs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trs td {
+    border-bottom: none;
+}

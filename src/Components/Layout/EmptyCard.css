@@ -1,0 +1,9 @@
+.empty_card svg{
+    width: 100%;
+    color: #010a18a8;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.empty_card h1{
+    font-size: 1rem;
+}

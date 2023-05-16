@@ -1,0 +1,20 @@
+.heading {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 1.428;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 14px;
+    color: #555252;
+}
+
+.image {
+    width: 50px;
+}

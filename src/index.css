@@ -1,0 +1,146 @@
+  /* =========================== Yuvraj modules css================== */
+:root {
+    /* ======================== MAIN Colors ==================== */
+    --main-color: #b67b43;
+    --color-212529:#212529;
+    --color-increare:#47ad24;
+    --color-decrease:#e52e2e;
+    --color-828599:#828599;
+    /* ================ BORDER COLORS */
+    --border-size:0.2rem;
+    --border-color:#b67b44;
+    --border-color2:#ced4da;
+    /* ============== BUTTON PADDINGS  ====================*/
+}
+/* ======================= Common element classess  */
+.section__container {
+    min-height: 100vh;
+}
+/* =============================== COMMON BUTTON CLASS  ======================================*/
+.button {
+    padding: 0.8rem 2rem;
+    background-color: var(--main-color);
+    color: white;
+    border:var(--border-size) ;
+    border-color: var(--border-color);
+}
+.green{
+    color: var(--color-increare);
+    font-size: 14px;
+}
+.red{
+    font-size: 14px ;
+    color: var(--color-decrease);
+}
+.quill{
+    background-color: white;
+}
+.form-control{
+    box-shadow: none;
+    border-color: var(--border-color2);
+}
+.title{
+    font-size: 28px;
+   color:var(--color-212599)
+}
+.sub-title{
+    font-size: 24px;
+    color:var(--color-212529)
+}
+.comp_desc{
+    font-size: 14px;
+    color:var(--color-828599);
+}
+
+/* Admin */
+.ant-layout {
+    min-height: 100vh;
+  }
+  
+  .ant-layout-sider {
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
+    width: 250px !important;
+  }
+  
+  .ant-layout-sider-collapsed {
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+  }
+  
+  .ant-layout-sider-collapsed .lg__logo {
+    display: none;
+    transition: 0.2s ;
+  }
+  
+  .ant-layout-sider-collapsed .sm__logo {
+    display: block;
+    transition: 0.2s ;
+  }
+  
+  .ant-menu-title-content{
+    font-size: 16px;
+  }
+  .ant-layout-content{
+    overflow: scroll;
+    height:85vh;
+    background-color: transparent !important;
+  }
+  
+  .logo {
+    height: 64px;
+  }
+  
+  .sm__logo {
+    display: none;
+    transition: 0.2s ;
+  
+  }
+  .lg__logo {
+    display: block;
+    transition: 0.2s ;
+  }
+  .ant-layout-header h5{
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .ant-layout-header p{
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .ant-layout-header div .badge{
+    top:10px;
+    right:-6px;
+  }
+
+
+  /* =========================== Akansha modules css================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    /* background: #ebebeb33; */
+    background: #000;
+}
+.logo{
+    font-size: 32px;
+    font-family: 'Dancing Script';
+}
+.Notify{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: #101010eb;
+    font-size: 20px;
+}
+.error{
+  color: var(--color-decrease);
+}

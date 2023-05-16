@@ -1,0 +1,26 @@
+.poster {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('../../assets/img/poster_1.jpg');
+    height: 600px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 0 2rem;
+}
+.poster h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.poster p{
+    text-align: center;
+    letter-spacing: .8px;
+    font-weight: 300;
+}
+
+@media (max-width: 991px) {
+    .poster {
+        height: auto;
+    }
+}

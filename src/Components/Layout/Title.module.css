@@ -1,0 +1,13 @@
+.title{
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #4d5959;
+    letter-spacing: 1px;
+    line-height: 1.428;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+    margin: 2rem 0 3rem 0;
+}

@@ -1,0 +1,139 @@
+.slick-prev {
+    left: 10px;
+    z-index: 1;
+    font-size: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 25px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next {
+    right: 10px;
+    z-index: 1;
+}
+
+.slick-next:before {
+    content: '→';
+}
+
+.slick-prev:before {
+    content: '←';
+}
+
+.card-body {
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, .12);
+    box-shadow: 0 0 12px rgba(0, 0, 0, .12);
+    transition: all 200ms ease-in;
+    overflow: hidden;
+}
+
+.card-body:hover {
+    background-color: #a6b7cb1f;
+}
+
+.card-body img {
+    width: 100%;
+    transition: all 450ms ease-in;
+}
+.card-body img:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    border: none;
+    background-color: white;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.card .title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4d5959;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card .title:hover {
+    color: #9d652ecc;
+}
+
+.card .price {
+    color: #696969;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-footer {
+    background-color: transparent;
+    border: none;
+}
+.main--cart{
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    transition: all 300ms ease-in;
+}
+.add-to-cart{
+    position: absolute;
+    bottom: 25%;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #9d652ecc;
+    width: 100%;
+    padding: 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main--wishlist--card{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.main--wishlist--card .heart--icon{
+    font-size: 1.2rem;
+    padding: 0 .2rem;
+    border: 1px solid #8080803d;
+    font-weight: bolder;
+}
+.main--wishlist--card .eye--icon{
+    font-size: 1rem;
+    padding: 0 .2rem;
+    text-align: center;
+    border: 1px solid #8080803d;
+}
+
+.card-body:hover ~ .main--cart,
+.card-body:hover + .main--wishlist--card,
+.main--cart:hover,
+.main--wishlist--card:hover{
+    opacity: 1;
+}

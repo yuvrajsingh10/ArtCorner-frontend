@@ -1,0 +1,78 @@
+.profile {
+	padding-top: 4rem;
+	width: 100%;
+}
+
+.profile img {
+	width: 100%;
+}
+
+.hero_image {
+	background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../../assets/img/my--account--poster.jpg');
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero_image h1 {
+	color: aliceblue;
+	font-size: 30px;
+}
+
+.user_profile img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.tbody td {
+	padding: 10px;
+	color: grey !important;
+	font-size: 14px;
+}
+
+.tbody strong {
+	color: black;
+}
+
+.acc_details {
+	margin-top: 3rem;
+}
+
+.acc_details h5 {
+	font-size: 15px;
+	font-weight: 600;
+	color: #575757;
+}
+
+.account span {
+	font-size: 15px;
+	font-weight: bold;
+	color: #595959;
+}
+
+.account h3 {
+	color: #595959;
+	font-size: 14px;
+}
+
+.logout {
+	margin: 2rem 0;
+	color: #000000e0 !important;
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	cursor: pointer;
+}
+
+.logout svg {
+	color: #000000e0;
+}
+
+.profile_link{
+	cursor: pointer;
+}

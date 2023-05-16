@@ -1,0 +1,35 @@
+.heading{
+    color: #393939;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.428;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+}
+
+.desc{
+    color: #615f5f;
+    font-size: 14px;
+    line-height: 1.9rem;
+    font-family: 'Poppins';
+}
+
+.desc li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.footer ul{
+    padding-left: .5rem;
+}
+
+.copyright{
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+}
+.footer{
+    border-top: 1px solid;
+    border-color: #80808045;
+}

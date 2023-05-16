@@ -1,0 +1,36 @@
+.product img {
+    border-radius: 0;
+    width: 100px;
+    height: 120px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product h3{
+    margin-left: .5rem;
+}
+.products td,
+.products th{
+    text-align: center;
+    padding: 1rem;
+}
+.products th{
+    font-size: 13px;
+    color: #595959 !important;
+}
+
+.products svg{
+    color: rgb(0, 216, 0);
+    margin-right: .3rem;
+}
+.heading{
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.status{
+    font-size: 10px;
+}

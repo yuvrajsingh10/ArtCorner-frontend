@@ -1,0 +1,38 @@
+.posts-card {
+    transition: all 300ms ease-in;
+}
+
+.posts-card .card-footer {
+    margin: 1rem 0;
+}
+
+.post-heading {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 1.428;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.post-heading:hover {
+    color: rgb(121, 48, 9);
+}
+
+.posts-card .card-footer p {
+    font-size: 14px;
+    color: #555252;
+}
+
+.posts-card img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-in;
+}
+
+.posts-card img:hover {
+    transform: scale(1.2);
+}

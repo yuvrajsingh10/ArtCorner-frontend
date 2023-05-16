@@ -1,0 +1,18 @@
+.carousel_image_container img {
+    height: 700px;
+    background-color: #ebebeb33;
+}
+.carousel_image_container h1{
+    font-size: 4rem;
+    font-family: 'Dancing Script';
+}
+.carousel_image_container h5{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+@media (max-width: 991px) {
+    .carousel_image_container img {
+        height: auto;
+    }
+}

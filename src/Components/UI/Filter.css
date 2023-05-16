@@ -1,0 +1,17 @@
+.Filter_Box{
+	background: white;
+	height: 100%;
+    padding: 3rem 2rem;
+}
+.Filter_Box .widget-title{
+	font-size: 18px;
+	letter-spacing: .9px;
+}
+.Filter_Box select{
+    border: 1px solid #00000021;
+    padding: .5rem 1rem;
+    outline: none;
+}
+.Filter_Box .box{
+	margin-top: 2rem;
+}

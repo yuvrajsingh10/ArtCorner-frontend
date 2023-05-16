@@ -1,0 +1,45 @@
+.main_box {
+  padding-top: 5rem;
+}
+
+.main_box h1 {
+  font-size: 3rem;
+}
+
+.form_box {
+  padding: 2rem 4rem;
+  background-color: rgba(243, 243, 243, 0.37);
+}
+
+.form_box input,
+.form_box select {
+  border: 1px solid #c2c2c2cc;
+  outline: navajowhite;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: .5rem 1rem;
+  margin: 0 0 1rem 0;
+  width: 100%;
+  color: black;
+  background-color: transparent;
+}
+
+.form_box input[type='file']{
+  background-color: #ededed;
+}
+
+.address {
+  display: flex;
+}
+
+.input_box {
+  display: flex;
+}
+
+.form_box .heading {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #313131;
+  margin: 2rem .5rem;
+}
